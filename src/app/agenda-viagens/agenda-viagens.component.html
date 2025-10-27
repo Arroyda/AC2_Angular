@@ -104,13 +104,14 @@
         </div>
       </div>
   
-
-      <button 
-        type="submit" 
-        class="botao-enviar"
-        [disabled]="formularioViagem.invalid">
-        Enviar Reserva
-      </button>
+      <div class="form-botao">
+        <button 
+          type="submit" 
+          class="botao-enviar"
+          [disabled]="formularioViagem.invalid">
+          Enviar Reserva
+        </button>
+      </div>
 
       <div class="status-formulario">
         <small [class.valido]="formularioViagem.valid" [class.invalido]="formularioViagem.invalid">

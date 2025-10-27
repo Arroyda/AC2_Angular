@@ -56,8 +56,12 @@
     margin-top: 0.25rem;
   }
   
+  .form-botao {
+    text-align: center;
+  }
+
   .botao-enviar {
-    width: 100%;
+    width: 50%;
     padding: 1rem;
     background: #27ae60;
     color: white;
@@ -75,7 +79,7 @@
   }
   
   .botao-enviar:disabled {
-    background: #bdc3c7;
+    background: #a9aeb1;
     cursor: not-allowed;
     transform: none;
   }
